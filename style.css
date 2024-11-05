@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.header, .section {
+    margin-bottom: 20px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+.header p {
+    margin: 5px 0;
+    color: #666;
+}
+.section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+.experience, .education {
+    margin-bottom: 15px;
+}
+.experience h3, .education h3 {
+    margin: 0;
+}
+.experience p, .education p {
+    margin: 5px 0;
+}
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
