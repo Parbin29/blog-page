@@ -3,42 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Vlog Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .header, .section {
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .header p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .experience, .education {
+            margin-bottom: 15px;
+        }
+        .experience h3, .education h3 {
+            margin: 0;
+        }
+        .experience p, .education p {
+            margin: 5px 0;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            background-color: #f4f4f4;
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 3px;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>John Doe</h1>
+            <p>Email: john.doe@example.com | Phone: (123) 456-7890</p>
+            <p>LinkedIn: linkedin.com/in/johndoe</p>
+        </div>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to My Vlog</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#videos">Videos</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+        <!-- About Section -->
+        <div class="section">
+            <h2>About Me</h2>
+            <p>A brief description about yourself, your skills, and what you bring to a company. Aim to keep it short, impactful, and relevant.</p>
+        </div>
 
-    <!-- Main Content Section -->
-    <main>
-        <section id="videos">
-            <h2>My Latest Videos</h2>
-            <div class="video-container">
-                <!-- Example Video -->
-                <div class="video-card">
-                    <video src="path/to/video.mp4" controls></video>
-                    <h3>Video Title</h3>
-                    <p>Video description goes here. This is a short description of the video content.</p>
-                </div>
+        <!-- Experience Section -->
+        <div class="section">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Software Developer</h3>
+                <p>Company XYZ | 2020 - Present</p>
+                <p>Details of responsibilities, projects, and achievements in this role. Focus on outcomes and skills developed.</p>
             </div>
-        </section>
-    </main>
+            <div class="experience">
+                <h3>Web Developer</h3>
+                <p>Company ABC | 2018 - 2020</p>
+                <p>Description of work done in this role, including technologies used and key contributions.</p>
+            </div>
+        </div>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 My Vlog. All rights reserved.</p>
-    </footer>
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Bachelor's in Computer Science</h3>
+                <p>University of Example | Graduated: 2018</p>
+                <p>Include any relevant coursework, honors, or activities that support your career goals.</p>
+            </div>
+        </div>
 
-    <script src="script.js"></script>
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Version Control (Git)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
